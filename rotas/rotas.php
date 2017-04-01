@@ -27,20 +27,36 @@ $app->get('/', function() use ($app){
     return $app['twig']->render('index.twig');
 })->bind('index');
 
-$app->get('/noticia', function() use ($app){
-    return $app['twig']->render('pages/noticia.twig');
-})->bind('noticia');
+$app->get('/noticiaform', function() use ($app){
+    return $app['twig']->render('pages/noticia/noticiaform.twig');
+})->bind('noticiaform');
 
-$app->get('/idoso', function() use ($app){
-    return $app['twig']->render('pages/idoso.twig');
-})->bind('idoso');
+$app->get('/noticialist', function() use ($app){
+    return $app['twig']->render('pages/noticia/noticialist.twig');
+})->bind('noticialist');
 
-$app->get('/contato', function() use ($app){
-    return $app['twig']->render('pages/contato.twig');
-})->bind('contato');
+$app->get('/idosolist', function() use ($app){
+    return $app['twig']->render('pages/idoso/idosolist.twig');
+})->bind('idosolist');
 
-$app->get('/admin', function() use ($app){
-    return $app['twig']->render('pages/admin.twig');
-})->bind('admin');
+$app->get('/contatolist', function() use ($app){
+    return $app['twig']->render('pages/contato/contatolist.twig');
+})->bind('contatolist');
+
+$app->get('/imagemform', function() use ($app){
+    return $app['twig']->render('pages/imagem/imagemform.twig');
+})->bind('imagemform');
+
+$app->get('/imagemlist', function() use ($app){
+    return $app['twig']->render('pages/imagem/imagemlist.twig');
+})->bind('imagemlist');
+
+$app->get('/usuarioform', function() use ($app){
+    return $app['twig']->render('pages/usuario/usuarioform.twig');
+})->bind('usuarioform');
+
+$app->get('/usuariolist', function() use ($app){
+    return $app['twig']->render('pages/usuario/usuariolist.twig');
+})->bind('usuariolist');
 
 $app->run();

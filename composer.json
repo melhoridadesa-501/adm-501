@@ -1,9 +1,9 @@
 {
-    "name": "raphael/site-501",
+    "name": "henrique/adm-501",
     "authors": [
         {
-            "name": "moryta",
-            "email": "raphael.moryta@gmail.com"
+            "name": "HnkAlbuquerque",
+            "email": "henrique.albuquerque@fatec.sp.gov.br"
         }
     ],
     "require": {
