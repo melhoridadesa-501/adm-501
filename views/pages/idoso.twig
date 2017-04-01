@@ -1,0 +1,48 @@
+{% extends 'index.twig' %}
+
+{% block content %}
+
+    <form>
+        <div class="form-group">
+            <label for="nome">Nome</label>
+            <input type="text" class="form-control" id="nome" aria-describedby="Nome" placeholder="Enter name">
+        </div>
+        <div class="form-group">
+            <label for="cpf">CPF</label>
+            <input type="text" class="form-control" id="cpf" aria-describedby="Cpf" placeholder="Enter CPF">
+        </div>
+        <div class="form-group">
+            <label for="dtNascimento">Data de Nascimento</label>
+            <input type="date" class="form-control" id="dtNascimento" aria-describedby="dtNascimento" placeholder="Enter Data de Nascimento">
+        </div>
+        <div class="form-group">
+            <label for="cep">CEP</label>
+            <input type="text" class="form-control" id="cep" aria-describedby="cep" placeholder="Enter CEP">
+        </div>
+
+        <div class="form-group">
+            <label for="lagradouro">Lagradouro</label>
+            <input type="text" class="form-control" id="lagradouro" aria-describedby="lagradouro" placeholder="Enter lagradouro">
+        </div>
+        <div class="form-group">
+            <label for="complemento">Complemento</label>
+            <input type="text" class="form-control" id="complemento" aria-describedby="complemento" placeholder="Enter complemento">
+        </div>
+        <div class="form-group">
+            <label for="bairro">Bairro</label>
+            <input type="text" class="form-control" id="bairro" aria-describedby="bairro" placeholder="Enter bairro">
+        </div>
+        <div class="form-group">
+            <label for="cidade">Cidade</label>
+            <input type="text" class="form-control" id="cidade" aria-describedby="cidade" placeholder="Enter cidade">
+        </div>
+        <div class="form-group">
+            <label for="uf">UF</label>
+            <input type="text" class="form-control" id="uf" aria-describedby="uf" placeholder="Enter UF">
+        </div>
+
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+{% endblock %}

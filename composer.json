@@ -1,0 +1,16 @@
+{
+    "name": "raphael/site-501",
+    "authors": [
+        {
+            "name": "moryta",
+            "email": "raphael.moryta@gmail.com"
+        }
+    ],
+    "require": {
+        "silex/silex": "2.0.*@stable",
+        "twig/twig": "^1.24",
+        "symfony/twig-bridge": "^3.0",
+        "doctrine/dbal":"~2.2",
+        "twbs/bootstrap": "^3.3"
+    }
+}
